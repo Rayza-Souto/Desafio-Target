@@ -9,12 +9,23 @@
 </head>
 
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/scripts/desafio1.jsx"></script>
-  <h1>Desafio 1 — Comissões</h1>
-  <button id="btnCalc" >Calcular</button>
-  <pre id="resultado"></pre>
 
+  <h1>Cálculo de comissões</h1>
+  <button id="btnCalc">Calcular</button>
+  <pre id="resultado"></pre>
+  <table id="tabelaVendas">
+    <thead>
+      <tr>
+        <th>Vendedor</th>
+        <th>Valor da Venda (R$)</th>
+        <th>Comissão (R$)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot id="totais"></tfoot>
+  </table>
+
+  <script type="module" src="/src/scripts/desafio1.js"></script>
 </body>
 
 </html>
