@@ -2,22 +2,6 @@ Este repositório contém três desafios independentes desenvolvidos em HTML, CS
 
 A aplicação possui uma página principal (index.html) que funciona como hub para acessar cada desafio individual.
 
-📁 Estrutura do Projeto
-public/
- ├── index.html               # Página inicial (menu)
- └── pages/
-       ├── desafio1.html
-       ├── desafio2.html
-       └── desafio3.html
-
-src/
- ├── scripts/
- │     ├── desafio1.js
- │     ├── desafio2.js
- │     └── desafio3.js
- └── styles/
-       └── global.css         # Estilos globais aplicados ao projeto inteiro
-
 🔧 Tecnologias Utilizadas
 
 HTML5 — Estruturação das páginas e formulários.
