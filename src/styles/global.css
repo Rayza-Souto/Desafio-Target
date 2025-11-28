@@ -1,0 +1,176 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== LAYOUT GERAL ===== */
+body {
+    background: #f2f4f8;
+    padding: 30px;
+    color: #333;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+    color: #222;
+    font-weight: 600;
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== FORMULÁRIOS ===== */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input,
+select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ===== BOTÕES ===== */
+button {
+    cursor: pointer;
+    background: #4a6cf7;
+    color: white;
+    font-weight: 600;
+    border: none;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #3a55c9;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+.btn-voltar {
+  background-color: #4a90e2;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.btn-voltar:hover {
+  background-color: #3576c7;
+}
+
+/* Botões secundários */
+button.btn-secondary {
+    background: #777;
+}
+
+.menu-botoes {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-botoes a {
+    text-decoration: none;
+}
+
+.menu-botoes button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+button.btn-secondary:hover {
+    background: #555;
+}
+
+/* ===== CAIXA DE RESULTADO ===== */
+pre,
+#resultado,
+#estoqueAtual {
+    background: #f8f9fc;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+    white-space: pre-wrap;
+}
+
+/* ===== TABELAS ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+table thead {
+    background: #e8ecf7;
+}
+
+table th,
+table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table tr:hover {
+    background: #f4f7ff;
+}
+
+/* ===== LINKS ENTRE DESAFIOS ===== */
+.nav-links {
+    margin-bottom: 25px;
+}
+
+.nav-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #4a6cf7;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #2f3dbd;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
