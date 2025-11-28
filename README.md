@@ -1,16 +1,85 @@
-# React + Vite
+Este repositório contém três desafios independentes desenvolvidos em HTML, CSS e JavaScript, estruturados para prática de lógica, manipulação do DOM e organização de um pequeno projeto front-end modularizado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A aplicação possui uma página principal (index.html) que funciona como hub para acessar cada desafio individual.
 
-Currently, two official plugins are available:
+📁 Estrutura do Projeto
+public/
+ ├── index.html               # Página inicial (menu)
+ └── pages/
+       ├── desafio1.html
+       ├── desafio2.html
+       └── desafio3.html
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+src/
+ ├── scripts/
+ │     ├── desafio1.js
+ │     ├── desafio2.js
+ │     └── desafio3.js
+ └── styles/
+       └── global.css         # Estilos globais aplicados ao projeto inteiro
 
-## React Compiler
+🔧 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+HTML5 — Estruturação das páginas e formulários.
 
-## Expanding the ESLint configuration
+CSS3 — Arquivo único (global.css) responsável pelo layout e estilização global.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript (ES6+) — Manipulação de eventos, DOM e regras de negócio de cada desafio.
+
+🧩 Desafios
+✔ Desafio 1
+
+Processamento de entrada numérica.
+
+Cálculos baseados em regras pré-definidas.
+
+Renderização dinâmica dos resultados.
+
+✔ Desafio 2
+
+Inserção, listagem e exibição de dados.
+
+Funções para limpar e renderizar o estado atual.
+
+Leitura e manipulação de elementos HTML.
+
+✔ Desafio 3
+
+Validação de dados de entrada.
+
+Lógica condicional com múltiplos estados possíveis.
+
+Exibição dinâmica via interface.
+
+Cada desafio possui funcionalidades independentes e seu próprio arquivo JavaScript.
+
+🧭 Navegação entre Páginas
+
+A página principal contém botões que direcionam para os três desafios.
+
+Cada página de desafio inclui um botão “Voltar”, permitindo retornar à página principal sem recarregar manualmente.
+
+▶️ Execução do Projeto
+
+Clone ou baixe o repositório.
+
+Abra o arquivo:
+
+public/index.html
+
+
+Navegue pelo menu inicial para acessar os desafios.
+
+Não é necessário servidor local; o projeto funciona apenas com arquivos estáticos.
+
+🎯 Objetivo Geral
+
+O projeto foi construído com foco em:
+
+Estruturação modular de arquivos.
+
+Boas práticas de organização em front-end.
+
+Exercício de lógica aplicada.
+
+Prática com manipulação de DOM usando JavaScript puro.
